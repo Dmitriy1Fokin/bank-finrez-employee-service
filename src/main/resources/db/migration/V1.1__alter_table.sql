@@ -1,0 +1,1 @@
+ALTER TABLE public.employee ALTER COLUMN middle_name DROP NOT NULL;
