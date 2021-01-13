@@ -5,6 +5,6 @@ CREATE TABLE public.employee(
     middle_name character varying NOT NULL,
     position character varying NOT NULL,
     date_of_hiring date not null,
-    date_of_dismissal date not null,
+    date_of_dismissal date,
     office_id character varying NOT NULL
 );
